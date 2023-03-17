@@ -1,4 +1,4 @@
 # archives-abortion.ca.gov
-This is a clean clone of the abortion.ca.gov repository. 
+This is an code archive of the abortion.ca.gov repository from March 14, 2023. ODI Engineering will periodically update the code as the site is updated. 
 
-See /abortion.ca.gov/README.md for full details.
+See /abortion.ca.gov/README.md for full project details.

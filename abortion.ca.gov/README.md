@@ -1,8 +1,12 @@
 # abortion.ca.gov
 
-## Design
+## Privacy first
 
-<a href="https://www.figma.com/file/rpo4uIWOXuqEhJ9I5E9Co1/screens---abortion.ca.gov?node-id=103%3A3055">figma project</a>
+All features were delivered without the use of any 3rd party service requests (such as Google Analytics) to protect site visitor information from possible law enforcement requests.
+
+## Performance
+
+The site meets ODI's performance guidelines with a Lighthouse score over 90 which ensures it loads quickly on slower and older devices and in lower bandwidth conditions.
 
 ## Data
 
@@ -49,3 +53,4 @@ The translated strings are managed using:
   - This file structure results in urls of / for english and /es/ for the corresponding Spanish translated homepage
 - Strings used in template includes are managed by ```eleventy-plugin-i18n```. See <a href="https://github.com/adamduncan/eleventy-plugin-i18n">the docs</a> for more info.
   - The .eleventy.js pulls translated values in from ```pages/_data/i18n.js```
+  

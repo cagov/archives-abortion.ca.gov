@@ -1,0 +1,34 @@
+<!-- not having the feedback component in v1
+{% if page.url !== "/error.html" %}
+  <cagov-page-feedback class="cagov-mb-2 d-block" data-endpoint-url="https://fa-go-feedback-001.azurewebsites.net/sendfeedback"></cagov-page-feedback>
+{% endif %}-->
+
+{% set locale_dir = ["/"] | join %}
+
+{% if locale != "en" %}
+  {% set locale_dir = ["/", locale, "/"] | join %}
+{% endif %}
+
+<section aria-label="Disclaimer" class="site-footer">
+  <div class="footer-container">
+    <div class="disclaimer-text">
+      {{ 'Disclaimer' | i18n(locale) }}
+    </div>
+  </div>
+</div>
+</section>
+<section aria-label="Site footer" class="site-footer">
+<div class="container">
+  <div class="footer-logo">
+    <a href="/">
+      <img class="logo-img" src="/assets/img/california-for-all.svg" alt="{{ 'California for all logo' | i18n(locale) }}">
+    </a>
+  </div>
+  <div class="footer-secondary-links">
+    <a href="{{ locale_dir }}translating-this-website/">{{ 'Translations' | i18n(locale) }}</a>
+    {# <a href="{{ locale_dir }}our-partners">{{ 'Our partners' | i18n }}</a> #}
+    {# <a href="{{ locale_dir }}contact/">{{ 'Contact us' | i18n }}</a> #}
+    {#<a href="/sitemap/">{{ 'Sitemap' | i18n }}</a> #}
+  </div>
+</div>
+</section>

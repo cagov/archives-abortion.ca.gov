@@ -1,0 +1,16 @@
+{
+  "name": "cloudfront-analytics-logs-parsing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "package": "zip dist/archive.zip *.js *.json node_modules"
+  },
+  "dependencies": {
+    "mmdb-lib": "^2.0.2",
+    "ua-parser-js": "^1.0.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1204.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "version": "1.0.0",
+    "name": "abortion.ca.gov - California abortion access",
+    "github": "https://github.com/@cagov/abortion.ca.gov",
+    "contact": {
+      "maintainer": "Office of Data and Innovation - State of California"
+    },
+    "page_metadata": {
+      "en": {
+        "site_url": "https://abortion.ca.gov",
+        "site_name": "California abortion access",
+        "site_default_description": "Abortion is legal and protected in California. You do not have to be a resident of California to receive abortion care here.",
+        "keywords": "abortion, california",
+        "page_default_open_graph_image_url": "/assets/img/abortion-access-social-media-card_1200x630.png",
+        "page_default_open_graph_image_alt": "California provides abortion access and support while protecting your privacy.",
+        "page_default_open_graph_image_width": 1200,
+        "page_default_open_graph_image_height": 630
+      },
+      "es": {
+        "site_url": "https://abortion.ca.gov",
+        "site_name": "Acceso al aborto en California",
+        "site_default_description": "El aborto es legal y está protegido en California. No es necesario ser residente de California para recibir servicios de aborto aquí.",
+        "keywords": "aborto, california",
+        "page_default_open_graph_image_url": "/assets/img/abortion-access-social-media-card_1200x630.png",
+        "page_default_open_graph_image_alt": "California brinda acceso y apoyo para el aborto mientras protege su privacidad.",
+        "page_default_open_graph_image_width": 1200,
+        "page_default_open_graph_image_height": 630
+      }
+    },
+    "languages": {
+      "es": "Español",
+      "en": "English"
+    }
+  }

@@ -1,0 +1,114 @@
+---
+title: Find a California abortion provider
+description: Use the California abortion finder to search for abortion services. You can also learn about telehealth options and fake abortion information.
+keywords: abortion provider, clinic, fake
+layout: sidebar-with-content.njk
+dir: ltr
+locale: en
+---
+
+<p>To get an abortion in California, you can contact your regular health care provider or search below.</p>
+
+<div class="cagov-provider-lookup">
+  {% include "./_includes/base-abortion-provider-lookup.njk" %}
+</div>
+
+  <!-- CSS -->
+  {% block css %}
+    {% set css %}
+    {% include "../_site_dist/provider-search.css" %}
+    {% endset %}
+    <style>
+      {{css | safe}}
+    </style>
+  {% endblock %}
+
+  {% block js %}
+    {% set js %}
+    {% include "../_site_dist/provider-search.js" %}
+    {% endset %}
+    <script type="module">
+      {{ js | safe }}
+    </script>
+  {% endblock %}
+
+  <h2>Outside of California</h2>
+
+  <p>If you want to travel to California for an abortion, use our California abortion finder. If you're looking for an abortion provider outside of California, you can find one through our list of <a href="#resources">national abortion resources.</a></p>
+
+  <h2>Telehealth-only options</h2>
+
+  <p>If you live or are staying in California, you may be able to use a telehealth service to get your medication by mail.</p>
+
+  <p>Use the California abortion finder on this page to search for California-based clinics with telehealth options.</p>
+  
+  <p>You can also contact a California-based telehealth service.</p>
+  
+  <ul>
+      <li><a href="https://choixhealth.com/">Choix</a> uses secure messaging. You do not need video to use Choix.</li>
+      <li><a href="https://www.heyjane.co/">Hey Jane</a> offers secure messaging and video visits.</li>
+      <li><a href="https://abortionondemand.org/">Abortion on Demand</a> uses video visits.</li>
+      <li><a href="https://www.abortiontelemedicine.com/">Abortion Telemedicine</a> uses video visits.</li>
+  </ul>
+  
+  <p>Find telehealth options available across the United States at <a href="https://www.abortionfinder.org/">Abortionfinder.org</a>.</p>
+
+  <h2>Fake abortion information</h2>
+
+  <p>Also known as <em>misinformation</em>, fake abortion information is common online.</p>
+
+  <h3>Clinics</h3>
+
+  <p>Search results online may include clinics that do not perform abortions. These “clinics” may provide false, medically inaccurate information online or in person about abortion to convince you not to have an abortion. They are sometimes called <em>crisis pregnancy centers</em> (CPCs).</p>
+
+  <p>Use the <a href="#provider-finder">California abortion finder</a> to search for trusted providers near you.</p>
+
+  <p>And learn more about <a href="https://www.plannedparenthood.org/blog/what-are-crisis-pregnancy-centers">how to spot CPCs</a>. The California Department of Justice also has guidance on <a href="https://oag.ca.gov/system/files/attachments/press-docs/Crisis%20Pregnancy%20Center%20Bulletin.pdf">how to spot fake clinics (PDF)</a>.</p>
+
+  <h3>Fake social media accounts</h3>
+
+  <p>Check any abortion information you find on a social media site.</p>
+
+  <ul>
+    <li>Fake social media accounts may post false or misleading abortion information.</li>
+    <li>Fake accounts may also post links to fake clinics.</li>
+    <li>Your friends or family may give you false information from a fake social media site.</li>
+  </ul>
+
+  <p>The best way to get accurate abortion information tailored to your pregnancy is to find a trusted provider and talk to them directly.</p>
+
+  <h3>Report fake information</h3>
+
+  <p>To report a fake abortion clinic or website, fill out the <a href="https://oag.ca.gov/crisis-pregnancy-center-complaint">consumer complaint form</a> on the California Department of Justice website.</p>
+
+  <p>You can report fake social media posts or accounts using the social media app.</p>
+
+  <h2 id="resources">California and national abortion resources</h2>
+
+  <p>Besides the <a href="#provider-finder">California abortion finder</a>, there are many resources that can help you find the abortion care you need.</p>
+
+  <h3>Abortion Finder (AbortionFinder.org)</h3>
+
+  <ul>
+    <li>Use their search to <a href="https://www.abortionfinder.org/">find a verified abortion provider</a>, including telehealth options.</li>
+    <li>View a <a href="https://www.abortionfinder.org/abortion-guides-by-state/abortion-in-california/providers">list of California providers</a>, virtual and in-person.</li>
+    <li>View their state guide on <a href="https://www.abortionfinder.org/abortion-guides-by-state/abortion-in-california">abortion in California</a>.</li>
+    <li>Text “Abortion Finder” and they will text you back with the three abortion providers closest to you. For service in English, text “Hello” to <a href="tel:+1-435-334-6337">435-3-FINDER</a>. For service in Spanish, text “Hola” to <a href="tel:+1-218-328-7227">218-3-BUSCAR</a>.</li>
+  </ul>
+
+  <h3>FPA Women’s Health</h3>
+
+  <p>
+    <a href="https://www.fpawomenshealth.com/">Visit the website</a> for information on in-clinic and telehealth women&#39;s health care. Use their search to <a href="https://www.fpawomenshealth.com/locations">find a clinic</a> that meets your needs.</p>
+
+  <h3>I Need an A</h3>
+
+  <p>I Need an A connects people with clinics, pill-by-mail providers, current laws, abortion funds, and support organizations. They can help you get personalized answers to many abortion questions. Use their search to <a href="https://www.ineedana.com/">find clinics near you</a>. The site is available in English and Spanish.</p>
+
+  <h3>National Abortion Federation</h3>
+
+  <p>For information about abortion and other resources, including financial help, call <a href="tel:+1-800-772-9100">800-772-9100</a>. You can also use their search to <a href="https://prochoice.org/patients/find-a-provider/">find a provider</a>.</p>
+
+  <h3>Planned Parenthood</h3>
+
+  <p>Use their search to <a href="https://www.plannedparenthood.org/get-care">find clinics near you</a>. You can also get a <a href="https://www.plannedparenthood.org/health-center/ca">list of California clinics</a>.</p>

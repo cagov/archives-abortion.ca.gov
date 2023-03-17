@@ -1,0 +1,291 @@
+.official-header {
+  background: #005186;
+  color: #ffffff;
+}
+.official-header svg .gov {
+  fill: #ffffff;
+}
+.site-header {
+  background: #bfe5e9;
+  border-bottom: 1px solid #005186;
+}
+cagov-site-navigation {
+  background: #d9eff1;
+  border-bottom: 1px solid #005186;
+}
+
+.page-container-ds {
+  margin-top: 0rem;
+}
+.featured-background {
+  background: conic-gradient(
+      from 90deg at 58.54% -12.85%,
+      #11957b 0deg,
+      #009692 51.43deg,
+      #0096a8 102.86deg,
+      #0094b9 154.29deg,
+      #1e90c3 205.71deg,
+      #568ac7 257.14deg,
+      #7b84c3 308.57deg,
+      #997db9 360deg
+    ),
+    #fafafa;
+}
+.featured-container {
+  background: transparent;
+  position: relative;
+  max-width: 50%;
+}
+.featured-container img {
+  position: absolute;
+  max-width: 114%;
+  width: 114%;
+  top: 0;
+  bottom: 0;
+  left: -48px;
+  margin: auto;
+}
+.cagov-featured-sidebar {
+  background: transparent;
+  display: flex;
+  max-width: 600px;
+}
+.cagov-featured-section {
+  margin: 0;
+}
+.featured-text-block {
+  background: #f0f8f7;
+  border-radius: 5px;
+  padding: 3rem;
+  align-self: center;
+  margin: 2rem;
+  z-index: 1;
+}
+.featured-text-block h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.cagov-hero-body-content {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background: #7167a8 !important;
+  border: 1px solid #7167a8 !important;
+
+  * {
+    vertical-align: middle;
+  }
+
+  svg {
+    margin-left: 0.5rem;
+  }
+}
+
+.btn-primary:hover {
+  color: var(--white, #fff);
+  background-color: var(--primary-700, #4d4580);
+  border: 1px solid #7167a8 !important;
+  border-color: none;
+  border-radius: 0.25rem !important;
+  font-size: var(--font-size-2, 1.125rem);
+  font-weight: var(--font-weight-6, 600);
+  padding: var(--s-1, 0.5rem) var(--s-2, 1rem);
+  line-height: var(--font-lineheight-3, 1.5);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: none !important;
+}
+
+.know-your-right-background {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, #fff 100%),
+    conic-gradient(
+      from 67.36deg at 54.31% -15.75%,
+      rgba(77, 152, 95, 0.3960784314) 0deg,
+      rgb(13 155 122 / 30%) 51.43deg,
+      rgb(0 155 152 / 30%) 102.86deg,
+      rgb(0 154 178 / 30%) 154.29deg,
+      rgb(0 150 195 / 30%) 205.71deg,
+      rgb(66 143 202 / 30%) 257.14deg,
+      rgba(117, 134, 198, 0.3607843137) 308.57deg,
+      rgba(153, 125, 185, 0.3568627451) 360deg
+    );
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+.know-your-rights {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2rem;
+  place-items: center;
+  min-height: 450px;
+}
+
+.text {
+  max-width: 575px;
+}
+
+.know-your-rights > .text > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.quote {
+  display: grid;
+  justify-content: center;
+  padding: 5rem;
+  background: url("/assets/img/quote-bg.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  max-width: 530px;
+}
+.quote-container {
+  margin-top: 1.75rem;
+}
+.quote-text {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+.quote-author {
+  font-size: 1rem;
+  text-align: right;
+}
+
+.cagov-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(500px, 100%), 1fr));
+}
+
+.three-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 2rem;
+  margin: 2rem 0 5rem 0;
+}
+.card {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  border: 1px solid #bad9ed;
+  border-radius: 10px;
+  padding: 1rem;
+  a {
+    text-decoration: none;
+    color: #0473bd;
+  }
+  a:hover {
+    color: #015892;
+  }
+  .card-action {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 1rem;
+    align-items: center;
+  }
+  .card-image {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .card-text {
+    font-size: 1rem;
+    text-decoration: none;
+  }
+}
+.org-name-dept {
+  color: #0d4f8c;
+}
+
+@media (max-width: 875px) {
+  .logo-container {
+    .org-name-dept {
+      font-size: 1.25rem;
+    }
+    img {
+      width: 40px;
+    }
+  }
+  .featured-background {
+    max-height: 100%;
+  }
+  .know-your-right-background .container {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  .container.shorter {
+    width: 90% !important;
+  }
+  .quote-text {
+    font-size: 1.25rem;
+  }
+  .quote {
+    padding: 2rem;
+  }
+  .know-your-rights {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    margin: 1rem;
+  }
+  .three-card-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 2rem;
+    margin: 1rem;
+  }
+  .cagov-grid {
+    margin: 1rem;
+  }
+  .category-label h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .featured-container {
+    max-width: 100%;
+    img {
+      position: relative;
+      max-width: 100%;
+      width: 100%;
+      bottom: 0;
+      left: -48px;
+    }
+  }
+  .featured-text-block {
+    margin: 1.5rem;
+    padding: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .featured-background {
+    flex-direction: unset;
+  }
+}
+@media (min-width: 1176px) {
+  cagov-featured-sidebar {
+    max-width: 45% !important;
+  }
+}
+
+.taking-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 2rem;
+  max-width: 62rem;
+  margin: 5rem auto;
+  padding: 0 1rem;
+  &-icon {
+    width: 25rem;
+  }
+}
+@media (max-width: 767px) {
+  .taking-action {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}

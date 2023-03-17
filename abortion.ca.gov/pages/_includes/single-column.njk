@@ -1,0 +1,18 @@
+{% extends "base-layout.njk" %}
+
+{% block content %}
+  <div id="page-container" class="page-container-ds">
+    <main id="body-content">
+      <div class="single-column">
+        <article id="post-{{ page.fileSlug }}">
+          <h1>{{ title | safe }}</h1>
+          <div class="category-label">{{ category | safe }}</div>
+          <div class="entry-content">
+            {{ content | safe }}
+          </div>
+        </article>
+        <span class="return-top hidden-print"></span>
+      </div>
+    </main>
+  </div>
+{% endblock %}

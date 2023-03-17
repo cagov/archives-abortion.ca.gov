@@ -1,0 +1,80 @@
+/* drop down nav menu recolor */
+.expanded-menu-dropdown {
+  background: #d9eff1 !important;
+  border: 1px solid #d9eff1 !important;
+}
+/* site-footer cusomizations */
+.footer-container {
+  background: #fbe5d1;
+}
+.disclaimer-text {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin: 0 auto;
+  width: 90%;
+  max-width: var(--w-lg, 1176px);
+}
+
+/* Pagination style overrides */
+.cagov-card {
+  border-bottom: var(--border-5, 5px) solid #de6516;
+}
+cagov-pagination {
+  .cagov-pagination__list {
+    .cagov-pagination__item {
+      background-color: #ffffff;
+      color: #005186;
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      line-height: 2;
+      overflow: hidden;
+      a {
+        padding: 0.25rem;
+        color: #005186;
+        text-decoration: none;
+        width: 100%;
+      }
+      a:hover {
+        color: #ffffff !important;
+        background: #003f69 !important;
+        box-shadow: 0px !important;
+      }
+      .cagov-pagination-current {
+        background-color: #005186 !important;
+        background: #005186 !important;
+        color: #ffffff !important;
+        border: 1px solid #165ac2;
+        overflow: hidden;
+
+        a {
+          background-color: #005186;
+          color: #ffffff;
+          border: 1px solid #165ac2;
+        }
+
+        a:hover {
+          color: #ffffff !important;
+          background: #003f69 !important;
+          box-shadow: none !important;
+          background: 1px solid #003f69 !important;
+        }
+      }
+      .cagov-pagination__overflow {
+        background-color: none !important;
+      }
+    }
+  }
+}
+/*cagov-pagination .cagov-pagination__item.cagov-pagination-current*/
+.bg-light-blue {
+  background-color: #f1f7fb !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .has-sidebar-left .single-column {
+    max-width: 90%;
+  }
+}

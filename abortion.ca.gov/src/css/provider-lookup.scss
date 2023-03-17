@@ -1,0 +1,435 @@
+.cagov-provider-lookup {
+  background: conic-gradient(
+    from 67.36deg at 54.31% -15.75%,
+    #4d985f57 0deg,
+    #0d9b7a5e 51.43deg,
+    #009b9863 102.86deg,
+    #009ab264 154.29deg,
+    #0096c35d 205.71deg,
+    #428fca57 257.14deg,
+    #7586c65d 308.57deg,
+    #997db955 360deg
+  );
+  padding: 2rem;
+}
+.cagov-provider-lookup {
+  label {
+    line-height: 2;
+  }
+  input {
+    border: solid 1px;
+    margin-bottom: 0.5rem;
+  }
+  button {
+    background: #7167a8; /*var(--primary-dark-color, #00315f);*/
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    color: #ffffff;
+    font-size: calc(var(--font-size-2) + var(--ratio));
+    font-weight: var(--font-weight-4, 400);
+    margin-right: 0.5rem;
+    margin-left: 0;
+  }
+  .button-outlined {
+    background: #f0f8f7;
+    color: #7167a8;
+    border: solid 1px #7167a8;
+    text-align: left;
+  }
+  .button-outlined:hover {
+    background: #d6cfff;
+    color: #7167a8;
+  }
+  form {
+    background: #f0f8f7;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+    row-gap: 1rem;
+    margin: 2rem 0;
+    padding: 1rem 2rem 0 2rem;
+  }
+  .card-set {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  li.card {
+    background-color: #eee;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+  }
+  .awesomplete {
+    width: 100%;
+  }
+  .awesomplete > ul > li {
+    margin: 0;
+  }
+
+  #map {
+    height: 512px; // 720px;
+    // width: 660px;
+    width: 100%;
+    z-index: 0;
+  }
+  #map-credits {
+    text-align: right;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+
+  #credits-tooltip {
+    font-size: 0.8rem;
+    text-align: right;
+  }
+
+  .leaflet-container .leaflet-marker-pane img,
+  .leaflet-container .leaflet-shadow-pane img,
+  .leaflet-container .leaflet-tile-pane img,
+  .leaflet-container img.leaflet-image-layer,
+  .leaflet-container .leaflet-tile {
+    background-color: transparent;
+  }
+  .leaflet-popup-tip-container,
+  .leaflet-left {
+    background-color: transparent;
+  }
+}
+
+div.search-and-buttons {
+  width:fit-content;
+}
+.provider-search-field {
+  display: grid;
+  grid-template-rows: 1fr 2rem;
+  label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  input[type="text"] {
+    border: 1px solid #005186;
+    border-radius: 5px;
+    width: 370px;
+    padding-left: 12px;
+  }
+  input.error_state {
+    border: 1px solid #B91B37;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .provider-search-field {
+    input[type="text"] {
+      width: 300px;
+    }
+  }
+  .provider-search-actions {
+    button {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+
+.provider-lookup-actions {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  column-gap: 1rem;
+  max-width: 500px;
+}
+
+.provider-search-actions {
+  // display: grid;
+  // grid-template-columns: 1fr auto;
+  align-items: baseline;
+}
+#provider-search-error {
+  color: #93182B;
+  background-color: #FCE9E8;
+  clear: right;
+  padding: 4px 8px;
+  margin-bottom: 0.5rem;
+  min-height: 35px;
+  width: 100%;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.search-credits {
+  font-size: 0.8rem;
+  clear: right;
+  float: right;
+  position:relative;
+  // top: -1.3rem;
+}
+/* results */
+.results-list,
+.services-list {
+  list-style: none;
+}
+.services-list {
+  padding: 1rem 0;
+  border-top: 1px solid #d4d4d7;
+  border-bottom: 1px solid #d4d4d7;
+  li {
+    margin: 0;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    line-height: 2;
+    span {
+      margin-right: 0.25rem;
+    }
+    .telehealth {
+      background: #F7F5FF;
+    }
+  }
+}
+.services-list li.telehealth {
+  background: #F7F5FF;
+}
+.total-results {
+  font-weight: bold;
+  margin: 1rem 0;
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.results-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(254px, 1fr));
+  grid-template-rows: 1fr auto;
+  gap: 1.5rem;
+  li {
+    margin: 0;
+  }
+}
+.provider-card {
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 0.25rem;
+}
+.cagov-map-and-tiles {
+  position: relative;
+}
+
+.provider-card.popup {
+  display: none;
+  float: right;
+  position: absolute;
+  width: 50%;
+  max-height: 512px;
+  overflow-y: auto;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  div.with-popup#map-results {
+    margin-top: 256px;
+  }
+  .provider-card.popup {
+    // position: relative;
+    width: 100%;
+    top: 512px;
+    max-height: 512px;
+  }
+}
+
+
+.provider-info {
+  div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  a {
+    // font-weight: bold;
+    font-size: 1.0rem;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.provider-pill {
+  font-size: 0.875rem;
+  background: #d6cfff;
+  border: 1px solid #7167a8;
+  border-radius: 20px;
+  padding: 0.25rem 1.0rem;
+  display: inline-block;
+}
+.miles-away {
+  font-size: 0.875rem;
+  font-style: italic;
+}
+.provider-card-container {
+  .h4 {
+    margin: 0.5rem 0 1rem 0;
+  }
+}
+.services {
+  position: relative;
+  font-size: 0.95rem;
+}
+
+.services-list-label {
+  position: absolute;
+  top: -11px;
+  left: 0;
+  font-size: 0.9rem;
+  background: #ffffff;
+  padding: 0 0.5rem 0 0;
+  margin-bottom: 0.5rem;
+}
+
+.menu-divider {
+  border: 1px solid #5DA5D5;
+  border-color: #5DA5D5;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  margin: 9px 0px 6px 0px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.7); /* IE */
+  -moz-transform: scale(1.7); /* FF */
+  -webkit-transform: scale(1.7); /* Safari and Chrome */
+  -o-transform: scale(1.7); /* Opera */
+  transform: scale(1.7);
+  padding: 10px;
+  margin-right: 8px;
+  border: 1px solid #005186;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+  input[type=checkbox] {
+    transform: scale(1.0);
+  }
+}
+
+#filter-pulldown {
+  margin-bottom: 1.5rem;
+  width: fit-content;
+}
+
+#filter-pulldown-header {
+  position: relative;
+  width: fit-content;
+  padding: 9px 12px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  background: #D0EBF1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+#filter-services-label {
+  padding: 0px 4px;
+}
+#filter-pulldown-content {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: fit-content;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); 
+  padding: 4px 12px 4px 16px; 
+  margin-bottom: 32px; 
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+#filter-pulldown #filter-pulldown-content {
+  display: none;
+  // transform: scale(0%);
+}
+div#filter-pulldown.open #filter-pulldown-content {
+  display: block;
+  // transform: scale(100%);
+}
+#filter-pulldown #filter-pulldown-content {
+  animation: growDown 300ms ease-in-out forwards;
+  // transition: all 0.6s cubic-bezier(0.5, 1.65, 0.4, 0.8);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#filter-pulldown #filter-pulldown-header span.dropdown-icon img {
+  transition: all 0.6s cubic-bezier(0.5, 1.65, 0.4, 0.8);
+}
+#filter-pulldown.open #filter-pulldown-header span.dropdown-icon img {
+  transform: rotate(180deg);
+}
+
+.tech-note {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+  opacity: 0.5;
+}
+
+.searchfilterbutton {
+  border-radius: 5px;
+}
+.distance-indicator {
+  font-family: 'Public Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+button.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  outline: none;  
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  opacity: 0.5;
+}
+
+button.close-button:hover,button.close-button:focus, button.close-button:active
+{
+  background-color: #EEEEEE;
+  opacity: 1.0;
+  border: none;
+  outline: none;  // attempt to fix chrome outline, not working
+}
+
+
+@media only screen and (max-width: 992px) {
+  .provider-search-actions {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    grid-gap: 1rem;
+  }
+  .cagov-provider-lookup {
+    padding: 0.5rem;
+    form {
+      padding: 0.25rem 0.5rem 0 0.5rem;
+    }
+  }
+}

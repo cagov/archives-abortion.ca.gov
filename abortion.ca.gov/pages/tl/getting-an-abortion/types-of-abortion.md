@@ -12,7 +12,9 @@ Ang [listahang ito ng mga bentahe at disbentahe](https://www.abortionfinder.org/
 
 ## Pagpapalaglag gamit ang gamot
 
-Ang opsyong ito ay kilala rin bilang *pildoras na pampalaglag*, bagaman kailangan mong uminom ng dalawa nito. Ito ay karaniwang isang opsyon hanggang 10 o 11 linggo mula sa unang araw ng iyong huling regla.
+Ang pagpipiliang ito ay kilala rin bilang ang* abortion pill*, kahit na talagang nangangailangan ito sa iyo na kumuha ng ilang mga tabletas. Ang pagpapalaglag ng gamot sa pangkalahatan ay isang pagpipilian hanggang sa 10 o 11 linggo mula sa unang araw ng iyong huling panahon.
+
+Magagamit pa rin ang mga pagpapalaglag ng gamot sa California. Habang ang isang desisyon ng korte ng pederal na distrito ay naglalayong paghigpitan ang pag-access sa mifepristone, maaari ka pa ring makakuha ng misopristol-only abortion, na parehong ligtas at epektibo. Matuto nang higit pa tungkol sa [pag-access sa pagpapalaglag ng gamot sa California] (/update-on-medication-abortion/).
 
 ### Paano makakakuha nito
 
@@ -24,11 +26,9 @@ Sa California, maaari mong makuha ang iyong gamot sa pagpapalaglag sa pamamagita
 
 ### Paano ito umeepekto
 
-Ang pagpapalaglag gamit ang gamot ay nangyayari kapag umiinom ka ng dalawang uri ng tabletas na hanggang 48 oras ang pagitan. Maaari mong inumin ang gamot sa isang klinika, sa bahay, o saan ka man nananatili.
+Ang pagpapalaglag ng gamot ay kapag kumuha ka ng ilang mga tabletas hanggang sa 48 oras ang layo. Maaari kang kumuha ng gamot sa isang klinika, sa bahay, o saan ka man nananatili.
 
-Ang gamot ay humihinto sa paggawa ng iyong katawan ng mga hormone sa pagbubuntis. Ito ay nagiging sanhi ng iyong matris upang paalisin ang pagbubuntis.
-
-Pagkatapos uminom ng parehong mga tabletas, karamihan sa mga tao ay naglalabas ng pagbubuntis sa loob ng 4 hanggang 5 oras. Para sa iba, maaaring magtagal ang proseso.
+Ang pagpapalaglag ng gamot ay maaaring tumagal ng ilang oras hanggang ilang araw upang makumpleto. Ang haba ng oras ay nag-iiba mula sa tao hanggang sa tao at depdns sa uri ng mga gamot na ginamit.
 
 Matuto pa tungkol sa [pangangalaga pagkatapos ng pagpapalaglag](/tl/getting-an-abortion/about-abortion/#abortion-aftercare).
 

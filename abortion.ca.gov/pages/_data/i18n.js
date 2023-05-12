@@ -617,6 +617,19 @@ module.exports = {
     location: "Site Footer",
   },
 
+  "Page alert message": {
+    en: 'Despite a recent federal court ruling, you can still get a <a href="/update-on-medication-abortion/">medication abortion</a> in California.',
+    es: 'A pesar de una reciente sentencia de un tribunal federal, todavía puedes hacerte un aborto con <a href="/update-on-medication-abortion/">medicamentos</a> en California.',
+    ko: '최근 연방 법원의 판결에도 불구하고 캘리포니아에서는 여전히 <a href="/update-on-medication-abortion/">약물 낙태를 할 수</a> 있습니다.',
+    tl: 'Sa kabila ng isang kamakailang desisyon ng korte ng pederal, maaari ka pa ring makakuha ng pagpapalaglag ng <a href="/update-on-medication-abortion/">gamot</a> sa California.',
+    vi: 'Mặc dù có phán quyết của tòa án liên bang gần đây, bạn vẫn có thể bị phá thai <a href="/update-on-medication-abortion/">bằng thuốc</a> ở California.',
+    "zh-hans":
+      '尽管联邦法院最近作出了裁决，但你仍然可以在加利福尼亚进行<a href="/update-on-medication-abortion/">药物流产</a>。',
+    "zh-hant":
+      '儘管最近有聯邦法院裁決，但您仍然可以在加利福尼亞州進行<a href="/update-on-medication-abortion/">藥物流產</a>',
+    location: "Homepage",
+  },
+
   "People who are incarcerated or detained": {
     en: "People who are incarcerated or detained",
     es: "Personas que están en prisión o detenidas",
@@ -894,6 +907,70 @@ module.exports = {
     vi: "Chỉ y tế từ xa",
     "zh-hans": "仅限远程医疗",
     "zh-hant": "僅限遠程醫療",
+    location: "Find a provider",
+  },
+
+  "Telehealth only options": {
+    en: "Telehealth only options",
+    es: "Solo opciones de telesalud",
+    ko: "원격 의료 전용 옵션",
+    tl: "Mga pagpipilian lamang sa Telehealth",
+    vi: "Các tùy chọn chỉ dành cho Telehealth",
+    "zh-hans": "仅限远程医疗的选项",
+    "zh-hant": "僅遠程醫療選項",
+    location: "Find a provider",
+  },
+
+
+  "Telehealth card caption": {
+    en: "You can contact a California-based telehealth service:",
+    es: "Puede ponerse en contacto con un servicio de telesalud con sede en California:",
+    ko: "캘리포니아에 소재한 원격 의료 서비스에 문의할 수 있습니다.",
+    tl: "Maaari kang makipag-ugnay sa isang serbisyo sa telehealth na nakabase sa California:",
+    vi: "Quý vị có thể liên hệ với dịch vụ telehealth có trụ sở tại California:",
+    "zh-hans": "您可以联系位于加利福尼亚的远程医疗服务：",
+    "zh-hant": "您可以聯繫位於加利福尼亞的遠程醫療服務：",
+    location: "Find a provider",
+  },
+
+  "Telehealth choix": {
+    en: "<b>Choix</b> uses secure messaging. You do not need video to use Choix.",
+    es: "<b>Choix</b> utiliza mensajería segura. No necesita vídeo para utilizar Choix.",
+    ko: "<b>Choix</b> 는 보안 메시징을 사용합니다.Choix를 사용하기 위해 비디오가 필요하지 않습니다.",
+    tl: "Gumagamit ang <b>Choix</b> ng ligtas na pagmemensahe. Hindi mo kailangan ang video upang magamit ang Choix.",
+    vi: "<b>Choix</b> sử dụng tin nhắn an toàn. Bạn không cần video để sử dụng Choix.",
+    "zh-hans": "<b>Choix</b> 使用安全消息。您不需要视频即可使用 Choix。",
+    "zh-hant": "<b>Choix</b> 使用安全消息傳遞。您不需要視頻即可使用 Choix。",
+    location: "Find a provider",
+  },
+  "Telehealth heyjane": {
+    en: "<b>Hey Jane</b> offers secure messaging and video visits.",
+    es: "<b>Hey Jane</b> ofrece mensajería segura y visitas por video.",
+    ko: "<b>Hey Jane은</b> 안전한 메시지 및 비디오 방문을 제공합니다.",
+    tl: "Nag-aalok <b>si Hey Jane</b> ng ligtas na pagmemensahe at mga pagbisita sa video.",
+    vi: "<b>Hey Jane</b> cung cấp dịch vụ nhắn tin và truy cập video an toàn.",
+    "zh-hans": "<b>Hey Jane</b> 提供安全的消息和视频访问服务。",
+    "zh-hant": "<b>Hey Jane</b> 提供安全的消息傳遞和視頻訪問。",
+    location: "Find a provider",
+  },
+  "Telehealth abortionondemand": {
+    en: "<b>Abortion on Demand</b> uses video visits.",
+    es: "<b>Abortion on Demand</b> utiliza visitas por video.",
+    ko: "<b>Abortion on Demand</b> 비디오 방문을 이용합니다.",
+    tl: "Ang <b>Abortion on Demand</b> ay gumagamit ng mga pagbisita sa video.",
+    vi: "<b>Abortion on Demand</b> sử dụng các chuyến thăm video.",
+    "zh-hans": "<b>Abortion on Demand</b> 使用视频访问。",
+    "zh-hant": "<b>Abortion on Demand</b> 使用視頻訪問。",
+    location: "Find a provider",
+  },
+  "Telehealth abortiontelemedicine": {
+    en: "<b>Abortion Telemedicine</b> uses video visits.",
+    es: "<b>Abortion Telemedicine</b> utiliza visitas por video.",
+    ko: "<b>Abortion Telemedicine</b> 비디오 방문을 이용합니다.",
+    tl: "Ang <b>Abortion Telemedicine</b> ay gumagamit ng mga pagbisita sa video.",
+    vi: "<b>Abortion Telemedicine</b> sử dụng các chuyến thăm video.",
+    "zh-hans": "<b>Abortion Telemedicine</b> 使用视频访问。",
+    "zh-hant": "<b>Abortion Telemedicine</b> 使用視頻訪問。",
     location: "Find a provider",
   },
 

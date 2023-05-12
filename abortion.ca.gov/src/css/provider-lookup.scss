@@ -212,9 +212,17 @@ div.search-and-buttons {
   }
 }
 .provider-card {
-  padding: 1.5rem;
+  padding: 1.0rem;
   background: #ffffff;
-  border-radius: 0.25rem;
+  border-radius: 0.33rem;
+}
+.provider-card.telehealth-card {
+  background: #d6cfff;
+}
+img.telehealth-circle-icon {
+  position:relative;
+  top:20px;
+  width:58px;
 }
 .cagov-map-and-tiles {
   position: relative;
@@ -277,8 +285,41 @@ div.search-and-buttons {
 .provider-card-container {
   .h4 {
     margin: 0.5rem 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  .h4.telehealth-title {
+    margin: -1.0rem 0 1rem 0;
   }
 }
+div.telehealth-contact {
+  font-size:0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.telehealth-card-container ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+.telehealth-card-container li {
+  position:relative;
+  list-style-type: none;
+  background-color:#FFFFFF;
+  margin-bottom:8px;
+  padding: 10px 10px 10px 36px;
+  border-radius:0.33rem;
+  font-size: 0.95rem;
+}
+.telehealth-card-container li::before {
+  content: '➔'; // ￫→
+  position:absolute;
+  left:16px;
+}
+.provider-subcard-item:hover {
+  // background: #f7f7f7;
+  cursor:pointer;
+  box-shadow: 0px 0px 10px 0px #7167A8BF;
+}
+
 .services {
   position: relative;
   font-size: 0.95rem;

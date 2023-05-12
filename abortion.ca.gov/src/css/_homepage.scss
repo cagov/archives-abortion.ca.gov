@@ -289,3 +289,19 @@ cagov-site-navigation {
     row-gap: 1rem;
   }
 }
+
+.page-alert-container {
+  background: #d9eff1;
+  border-bottom: 1px solid #005186;
+}
+
+.page-alert-block {
+  max-width: 1176px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.cagov-page-alert {
+  margin: 0 !important;
+  background: rgba(254, 192, 47, 0.5) !important;
+}

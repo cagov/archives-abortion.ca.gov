@@ -18,6 +18,12 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
       "procedureLabel",
       "telehealthLabel",
       "telehealthOnly",
+      "telehealthOnlyOptions",
+      "telehealthCardCaption",
+      "telehealth_choix",
+      "telehealth_heyjane",
+      "telehealth_abortionondemand",
+      "telehealth_abortiontelemedicine",
       "pillLabel",
       "pillLabel_mail",
       "pillLabel_pickup",
@@ -39,6 +45,12 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
     this.translations.procedureLabel = "filterProcedure";
     this.translations.telehealthLabel = "Telehealth available";
     this.translations.telehealthOnly = "Telehealth only";
+    this.translations.telehealthOnlyOptions = "Telehealth only options";
+    this.translations.telehealthCardCaption = "You can contact a California-based telehealth service:";
+    this.translations.telehealth_choix = "Choix Health";
+    this.translations.telehealth_heyjane = "Hey Jane";
+    this.translations.telehealth_abortionondemand = "Abortion on Demand";
+    this.translations.telehealth_abortiontelemedicine = "Abortion Telemedicine";
     this.translations.pillLabel = "Abortion pill";
     this.translations.pillLabel_mail = "Abortion pill by mail";
     this.translations.pillLabel_pickup = "Abortion pill for pickup";
@@ -53,6 +65,10 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
     this.translations.n_milesAway = "{N} miles away";
     this.menu_is_open = false;
     this.first_time = true;
+    this.telehealth_urls = ['https://choixhealth.com/',
+                            'https://www.heyjane.co/',
+                            'https://abortionondemand.org/',
+                            'https://www.abortiontelemedicine.com/'];
 
     // @TODO 3 paginated & search result strings to fix
 
@@ -93,11 +109,20 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
   }
 
   beginDisplay() {
+    // console.log("begin display");
     this.data = this.sortData(this.ourMapComponent.inBoundsList, this.ourMapComponent.mapCenter);
+    // this telehealth is only shown if the filter is not set to just in-clinic procedures
+    var telehealth_card_ok = !((this.ourMapComponent.searchfilters.procedure && !this.ourMapComponent.searchfilters.telehealth && !this.ourMapComponent.searchfilters.pill));
+    // console.log("Search filters: " + this.ourMapComponent.searchfilters);
+    if (telehealth_card_ok) {
+      var telehealth_record = {'formatted_name':this.translations.telehealthOnlyOptions,'telehealth_card':true};
+      this.data.unshift(telehealth_record);
+    }
     if (!this.searchComponent.currentCity) { 
       // clear distance so we don't dispay it
       this.ourMapComponent.inBoundsList.forEach(rec => { rec.distanceInMiles = undefined;})
     }
+    // console.log("First listing: ",this.data[0]);
     this.currentPage = 0;
     this.displayProviders();
   }
@@ -209,6 +234,21 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
     )}"></cagov-pagination>
     </div>`;
 
+    const telehealth_subs = this.querySelectorAll("li.provider-subcard-item");
+    telehealth_subs.forEach((subcard, idx) => {
+      subcard.addEventListener(
+        "click",
+        (e) => {
+          let url = this.telehealth_urls[idx];
+          // console.log(`Clicked on telehealth subcard: ${idx} -> ${url}`);
+          window.location.href = url;
+        },
+        true,
+      );
+    });
+    
+
+
     const menuHeader = this.querySelector("div#filter-pulldown-header");
     menuHeader.addEventListener(
       "click",
@@ -253,7 +293,7 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
         true);
     });
    
-
+    
   }
 
   handlePagination(e) {
@@ -275,7 +315,32 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
     location.hash = "#map-results";
   }
 
+  writeTelehealthOnlyProviderCard(item) {
+    // where do these come from?
+    let translations = this.translations;
+    let fixed_items = [translations.telehealth_choix,
+                        translations.telehealth_heyjane,
+                        translations.telehealth_abortionondemand,
+                        translations.telehealth_abortiontelemedicine];
+    for (var i = 0; i < fixed_items.length; i++) {
+      fixed_items[i] = fixed_items[i].replace("&lt;b&gt;", '<b>');
+      fixed_items[i] = fixed_items[i].replace("&lt;/b&gt;", '</b>');
+    }
+
+    let item_list_markup = '<ul class="teleprovider-list">';
+    for (var i = 0; i < fixed_items.length; i++) {
+      item_list_markup += `<li class="provider-subcard-item" data-telehealth-idx=${i+1}>${fixed_items[i]}</li>`;
+    }
+    item_list_markup += '</ul>';
+
+    return `<div class="provider-card-container telehealth-card-container">
+    <h2 class="h4 telehealth-title"><img class="telehealth-circle-icon" src="/assets/img/telehealth_circle.svg" /> ${item.formatted_name}</h2><div class="telehealth-contact">${translations.telehealthCardCaption}</div>${item_list_markup}</div>`;
+  }
+
   writeProviderCard(item, closebox = false) {
+    if ('telehealth_card' in item) {
+      return this.writeTelehealthOnlyProviderCard(item); // no closebox necessary
+    }
     let translations = this.translations;
     let telehealth = false;
     let telehealth_only = false;
@@ -406,7 +471,7 @@ export class CaGovAbortionProviderList extends window.HTMLElement {
   writeProviderList(list, translations) {
     return `${list
       .map((item) => {
-        return `<li class="provider-card">${this.writeProviderCard(item)}</li>`;
+        return `<li class="provider-card ${'telehealth_card' in item? 'telehealth-card' : ''}">${this.writeProviderCard(item)}</li>`;
       })
       .join("\n      ")}`;
   }

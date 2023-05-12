@@ -12,7 +12,9 @@ This [list of pros and cons](https://www.abortionfinder.org/abortion-types/pill-
 
 ## Medication abortion
 
-This option is also known as the *abortion pill*, though it actually requires you to take two pills. It is generally an option up to 10 or 11 weeks from the first day of your last period.
+This option is also known as the *abortion pill*, though it actually requires you to take a few pills. Medication abortion is generally an option up to 10 or 11 weeks from the first day of your last period.
+
+Medication abortions are still available in California. While a federal district court ruling seeks to restrict access to mifepristone, you can still get a misopristol-only abortion, which is both safe and effective. Learn more about [access to medication abortion in California](/update-on-medication-abortion/).
 
 ### How to get it
 
@@ -24,11 +26,9 @@ In California, you may be able to get your abortion medication by mail after a t
 
 ### How it works
 
-A medication abortion is when you take two types of pills up to 48 hours apart. You can take the medication in a clinic, at home, or wherever you’re staying.
+A medication abortion is when you take certain pills up to 48 hours apart. You can take the medication in a clinic, at home, or wherever you’re staying.
 
-The medication stops your body’s production of pregnancy hormones. This causes your uterus to expel the pregnancy.
-
-After taking both pills, most people expel the pregnancy in 4 to 5 hours. For others, the process can take longer.
+A medication abortion can take several hours to a few days to complete. The length of time varies from person to person and depends on the type of drugs used.
 
 Learn more about [abortion aftercare](/getting-an-abortion/about-abortion/#abortion-aftercare).
 

@@ -12,7 +12,9 @@ Có hai lựa chọn phá thai chính: *phá thai bằng thuốc* và *phá thai
 
 ## Phá thai bằng thuốc
 
-Lựa chọn này còn được gọi là dùng *thuốc phá thai*, và trong thực tế, quý vị sẽ phải uống hai loại thuốc. Thông thường, quý vị có thể lựa chọn phá thai bằng hình thức này khi chưa quá 10 hoặc 11 tuần kể từ ngày đầu tiên của kỳ kinh nguyệt cuối của quý vị.
+Tùy chọn này còn được gọi là *thuốc phá thai, mặc dù nó thực sự đòi hỏi bạn phải uống một vài viên thuốc. Phá thai bằng thuốc nói chung là một lựa chọn lên đến 10 hoặc 11 tuần kể từ ngày đầu tiên của giai đoạn cuối cùng của bạn.
+
+Phá thai bằng thuốc vẫn còn có ở California. Trong khi một phán quyết của tòa án quận liên bang tìm cách hạn chế quyền truy cập vào mifepristone, bạn vẫn có thể bị phá thai chỉ misopristol, vừa an toàn vừa hiệu quả. Tìm hiểu thêm về [tiếp cận phá thai thuốc ở California] (/update-on-medication-abortion/).
 
 ### Cách nhận thuốc
 
@@ -24,11 +26,9 @@ Lựa chọn này còn được gọi là dùng *thuốc phá thai*, và trong t
 
 ### Cách thức hoạt động
 
-Phá thai bằng thuốc là khi quý vị uống hai loại thuốc cách nhau tối đa 48 giờ. Quý vị có thể uống thuốc tại phòng khám, ở nhà hoặc bất cứ nơi lưu trú hiện tại nào của quý vị.
+Phá thai bằng thuốc là khi bạn uống một số loại thuốc nhất định cách nhau đến 48 giờ. Bạn có thể dùng thuốc tại phòng khám, ở nhà, hoặc bất cứ nơi nào bạn đang ở.
 
-Thuốc sẽ ngăn cơ thể quý vị sản sinh hormone thai kỳ. Do đó, tử cung của quý vị sẽ đẩy thai ra ngoài.
-
-Sau khi uống cả hai loại thuốc, hầu hết cơ thể mọi người sẽ đẩy thai ra ngoài trong 4 đến 5 giờ. Đối với những người khác, quá trình này có thể diễn ra lâu hơn.
+Phá thai bằng thuốc có thể mất vài giờ đến vài ngày để hoàn thành. Chiều dài thời gian thay đổi từ người này sang người và depdns về loại thuốc được sử dụng.
 
 Tìm hiểu thêm về [cách chăm sóc sau phá thai](/getting-an-abortion/about-abortion/#abortion-aftercare).
 

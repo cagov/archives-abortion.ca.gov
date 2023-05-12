@@ -12,7 +12,9 @@ Esta [lista a favor y en contra](https://www.abortionfinder.org/abortion-types/p
 
 ## Aborto con medicamentos
 
-Esta opción también se conoce como *píldora abortiva*, aunque en realidad requiere que usted tome dos píldoras. Por lo general, es una opción hasta las 10 u 11 semanas desde el primer día de la última menstruación.
+Esta opción también se conoce como *píldora abortiva*, aunque en realidad requiere que tomes algunas pastillas. Por lo general, el aborto con medicamentos es una opción hasta 10 u 11 semanas después del primer día de su último período menstrual.
+
+Los abortos con medicamentos todavía están disponibles en California. Si bien una sentencia de un tribunal federal de distrito busca restringir el acceso a la mifepristona, aún puedes hacerte un aborto solo con misopristol, que es seguro y eficaz. Obtenga más información sobre [acceso al aborto con medicamentos en California] (/update-on-medication-abortion/).
 
 ### Cómo conseguirla
 
@@ -24,11 +26,9 @@ En California, es posible que pueda obtener su medicamento para el aborto por co
 
 ### Cómo funciona
 
-Un aborto con medicamentos es cuando usted se toman dos tipos de píldoras en un intervalo de hasta 48 horas. Puede tomar el medicamento en una clínica, en su casa o en el lugar donde se encuentre.
+Un aborto con medicamentos se produce cuando se toman ciertas píldoras con un intervalo de hasta 48 horas. Puede tomar el medicamento en una clínica, en casa o donde quiera que se hospede.
 
-El medicamento detiene la producción de hormonas del embarazo. Esto hace que el útero expulse el embarazo.
-
-Después de tomar ambas píldoras, la mayoría de las personas expulsan el embarazo en 4 o 5 horas. Para otras, el proceso puede ser más largo.
+Un aborto con medicamentos puede tardar de varias horas a algunos días en completarse. El período de tiempo varía de una persona a otra y depende del tipo de fármacos que se usen.
 
 Obtenga más información sobre la [atención posterior al aborto](/es/getting-an-abortion/about-abortion/#abortion-aftercare).
 
